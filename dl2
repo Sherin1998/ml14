@@ -1,0 +1,52 @@
+An artificial neuron is a connection point in an artificial neural network. Artificial neural networks, like the human body's biological neural network, have a layered architecture and each network node (connection point) has the capability to process input and forward output to other nodes in the network.Artificial neuron also known as perceptron is the basic unit of the neural network. In simple terms, it is a mathematical function based on a model of biological neurons. It can also be seen as a simple logic gate with binary outputs. They are sometimes also called perceptrons.Its components are
+1. Input,Weights and biases,Activation Function,Output Layer
+
+#2
+1. Sigmoid Function
+In an ANN, the sigmoid function is a non-linear AF used primarily in feedforward neural networks. It is a differentiable real function, defined for real input values, and containing positive derivatives everywhere with a specific degree of smoothness. The sigmoid function appears in the output layer of the deep learning models and is used for predicting probability-based outputs. 
+
+2. Hyperbolic Tangent Function (Tanh) : The hyperbolic tangent function, a.k.a., the tanh function, is another type of AF. It is a smoother, zero-centered function having a range between -1 to 1.The tanh function is much more extensively used than the sigmoid function since it delivers better training performance for multilayer neural networks. The biggest advantage of the tanh function is that it produces a zero-centered output, thereby supporting the backpropagation process. 
+3. Softmax Function 
+The softmax function is another type of AF used in neural networks to compute probability distribution from a vector of real numbers. This function generates an output that ranges between values 0 and 1 and with the sum of the probabilities being equal to 1. 
+
+5. Rectified Linear Unit (ReLU) Function 
+One of the most popular AFs in DL models, the rectified linear unit (ReLU) function, is a fast-learning AF that promises to deliver state-of-the-art performance with stellar results. Compared to other AFs like the sigmoid and tanh functions, the ReLU function offers much better performance and generalization.
+The most significant advantage of using the ReLU function in computation is that it guarantees faster computation – it does not compute exponentials and divisions, thereby boosting the overall computation speed.
+
+#3
+Rosenblatt perceptron is a binary single neuron model. The inputs integration is implemented through the addition of the weighted inputs that have fixed weights obtained during the training stage. If the result of this addition is larger than a given threshold θ the neuron fires. When the neuron fires its output is set to 1, otherwise it’s set to 0.
+a single neuron that can solve linear classification problems through very simple learning algorithms.it can process non-boolean inputs
+and it can assign different weights to each input automatically
+
+#5
+A perceptron can only converge on linearly separable data. Therefore, it isn't capable of imitating the XOR function.Perceptrons are mainly termed as “linear classifiers” and can be used only for linear separable use cases and XOR is one of the logical operations which are not linearly separable as the data points will overlap the data points of the linear line or different classes occur on a single side of the linear line. 
+The XOR problem with neural networks can be solved by using Multi-Layer Perceptrons or a neural network architecture with an input layer, hidden layer, and output layer. So during the forward propagation through the neural networks, the weights get updated to the corresponding layers and the XOR logic gets executed.
+
+#6
+ Artificial Neural Network(ANN) uses the processing of the brain as a basis to develop algorithms that can be used to model complex patterns.Main components are
+ 
+ Input Layer:
+
+As the name suggests, it accepts inputs in several different formats provided by the programmer.
+
+Hidden Layer:
+
+The hidden layer presents in-between input and output layers. It performs all the calculations to find hidden features and patterns.
+Output Layer:
+
+The input goes through a series of transformations using the hidden layer, which finally results in output that is conveyed using this layer.
+
+#7
+
+Learning, in artificial neural network, is the method of modifying the weights of connections between the neurons of a specified network.
+
+#8
+Backpropagation, or backward propagation of errors, is an algorithm that is designed to test for errors working back from output nodes to input nodes. It is an important mathematical tool for improving the accuracy of predictions in data mining and machine learning.It is the practice of fine-tuning the weights of a neural net based on the error rate (i.e. loss) obtained in the previous epoch (i.e. iteration). Proper tuning of the weights ensures lower error rates, making the model reliable by increasing its generalization.
+The actual performance of backpropagation on a specific problem is dependent on the input data.
+Back propagation algorithm in data mining can be quite sensitive to noisy data
+You need to use the matrix-based approach for backpropagation instead of mini-batch.
+
+
+
+
+
